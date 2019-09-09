@@ -31,7 +31,7 @@ $ vagrant box add brightspot-aws https://github.com/peaster/brightspot-vagrant-a
 ```
 
 
-Copy the root Vagrantfile from this directory and modify the `keypair_name`, `security_group`, and `private_key_paths` fields
+Copy the root Vagrantfile from this repository and modify the `keypair_name`, `security_group`, and `private_key_paths` fields
 
 
 ```
