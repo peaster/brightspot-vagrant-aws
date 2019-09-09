@@ -1,5 +1,5 @@
 # Brightspot Cloud Development
-A plugin for personal Brightspot instances to be run on AWS.
+A plugin and configurations for personal Brightspot instances to be run on AWS.
 
 ## System Requirements
 - Vagrant v2.2.0 or greater
