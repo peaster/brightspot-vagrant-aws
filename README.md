@@ -26,7 +26,7 @@ $ vagrant plugin install vagrant-aws
 
 Import the Brightspot-AWS Vagrant box file
 ```
-$ vagrant box add brightspot-aws https://github.com/peaster/brightspot-vagrant-aws/box/brightspot-aws.box
+$ vagrant box add brightspot-aws https://github.com/peaster/brightspot-vagrant-aws/raw/master/box/brightspot-aws.box
 ```
 
 
