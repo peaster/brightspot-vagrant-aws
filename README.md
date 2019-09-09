@@ -38,6 +38,7 @@ Copy the root Vagrantfile from this repository and modify the `keypair_name`, `s
 $ vagrant up
 ```
 
-## Current Limitations
+## Current Limitations / Caveats
 - Instances brought up can not be brought down. If the instance is brought down, Brightspot will not re-initialize.
 - Debugger is not available. Looking into fixing this functionality
+- This tool should not be used in place of Beam/Gyro for deployment of lower and upper environments. It should only be used for personal development instances
