@@ -3,6 +3,8 @@ A plugin and configurations for personal Brightspot instances to be run on AWS.
 
 ## System Requirements
 - Vagrant v2.2.0 or greater
+- Brightspot will run comfortably on a `t2.medium` EC2 instance
+
 
 ## AWS Configuration
 
