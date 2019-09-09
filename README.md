@@ -37,5 +37,6 @@ Copy the root Vagrantfile from this directory and modify the `keypair_name`, `se
 $ vagrant up
 ```
 
-Current limitations
-
+## Current Limitations
+- Instances brought up can not be brought down. If the instance is brought down, Brightspot will not re-initialize.
+- Debugger is not available. Looking into fixing this functionality
