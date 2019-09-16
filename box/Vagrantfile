@@ -1,0 +1,9 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.provider :aws do |aws|
+    aws.ami = "ami-0a3cf2da0c0b8574c"
+    aws.instance_type = "t2.medium"
+  end
+end
