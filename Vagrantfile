@@ -13,4 +13,6 @@ Vagrant.configure("2") do |config|
   config.smb.functional = false
 
   config.vm.synced_folder "./site/target/", "/vagrant", type: "rsync"
+
+  config.vm.provision "shell", path: "https://github.com/peaster/brightspot-vagrant-aws/raw/master/provisioner.sh"
 end
