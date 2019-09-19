@@ -40,5 +40,6 @@ $ vagrant up
 
 ## Current Limitations / Caveats
 - Instances brought down will probably throw a 500 error when brought back up. This happens when Tomcat starts before MySQL. If this happens, run `sudo service brightspot restart` on the instance.
+- After an instance is brought down, it will be assigned a new public IP address when brought back up
 - Debugger is not available. Looking into fixing this functionality
 - This tool should not be used in place of Beam/Gyro for deployment of lower and upper environments. It should only be used for personal development instances
