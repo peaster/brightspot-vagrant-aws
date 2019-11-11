@@ -41,6 +41,6 @@ $ vagrant up
 ## Current Limitations / Caveats
 - Instances brought down will probably throw a 500 error when brought back up. This happens when Tomcat starts before MySQL. If this happens, run `sudo service brightspot restart` on the instance.
 - After an instance is brought down, it will be assigned a new public IP address when brought back up
-- Debugger is available through the use of SSH port forwarding. Turn on SSH port forward in the Vagrant environment, set up the Intellij remote debugger to use localhost and port 5005, and run `vagrant ssh -- -L 5005:localhost:5005`
+- Debugger is available through the use of SSH port forwarding. Turn on SSH port forwarding in the Vagrant environment, set up the Intellij remote debugger to use localhost and port 5005, and run `vagrant ssh -- -L 5005:localhost:5005`
 - This tool should not be used in place of Beam/Gyro for deployment of lower and upper environments. It should only be used for personal development instances
 
