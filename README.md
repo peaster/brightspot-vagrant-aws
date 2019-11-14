@@ -10,7 +10,7 @@ A plugin and configurations for launching and managing personal Brightspot insta
 If you haven't already done so, set your AWS access key ID and secret access key in `~/.aws/credentials`. More information on [AWS Security Credentials](https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html).
 
 ### From your AWS console
-- Create a EC2 security group and name it `vagrant`. Allow SSH on port 22 inbound and allow all outbound traffic on ports 80 and 443.
+- Create an EC2 security group and name it `vagrant`. Allow SSH on port 22 inbound and allow all outbound traffic on ports 80 and 443.
 - Create a key-pair and move the downloaded private key to your project directory
 
 
